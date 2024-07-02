@@ -1,0 +1,13 @@
+version: "3.1"
+
+stories:
+
+- story: car info
+  steps:
+  - intent: inform_model
+  - action: action_model_info
+
+- story: greet and ask about car
+  steps:
+  - intent: greet
+  - action: utter_greet

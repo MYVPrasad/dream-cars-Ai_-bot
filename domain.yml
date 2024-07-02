@@ -1,0 +1,26 @@
+version: "3.1"
+
+intents:
+  - greet
+  - inform_model
+
+entities:
+  - model
+
+slots:
+  model:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: model
+     
+   
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I assist you today?"
+
+actions:
+- action_model_info
+

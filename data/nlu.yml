@@ -1,0 +1,40 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hello
+    - hi
+    - hey there
+
+- intent: inform_model
+  examples: |
+    - give me the details of [a4](model)
+    - give me the details of [mustang](model)
+    - give me the details of [camry](model)
+    - give me the details of [ford](model)
+    - give me the details of [benz](model)
+    - give me the details of [bmw](model)
+    - give me the details of [All road Quattro](model)
+    - give me the details of [Avant](model)
+    - give me the details of [Cabriolet](model)
+    - give me the details of [Cabriolet Quattro](model)
+    - give me the details of [swift](model)
+    - give me the details of [Q5](model)
+    - give me the details of [Sil verado](model)
+    - give me the details of [Tucson](model)
+    - give me the details of [Altima](model) 
+    - give me the details of [Corolla](model)
+    - give me the details of [Accord](model)
+    - give me the details of [F-150](model)
+    - give me the details of [5 Series](model)
+    - give me the details of [Jetta](model)
+    - give me the details of [Sonata](model)
+    - give me the details of [Rogue](model)
+    - give me the details of [RAV 4](model)
+    - give me the details of [C-class](model)
+    - give me the details of [Equinox](model)
+    - give me the details of [Pilot](model)
+
+
+    
